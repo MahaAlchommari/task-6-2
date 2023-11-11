@@ -1,0 +1,40 @@
+.ma-Power {
+    margin-bottom: 150px;
+}
+
+.ma-PowerImg {
+    position: relative;
+}
+
+.possibilities img {
+    width: 100%;
+}
+
+.points {
+    bottom: 36%;
+}
+
+.points svg {
+    border-radius: 50%;
+    animation: dot 1s infinite;
+    font-size: 9px;
+}
+
+.ma-Power .points div:nth-child(even) .ma-card::before {
+    top: -134px;
+    height: 80px;
+}
+
+.ma-Power .points div:nth-child(even) .ma-card {
+    bottom: -1300%;
+}
+
+@keyframes dot {
+    from {
+        box-shadow: 0 0 0 0px red;
+    }
+
+    to {
+        box-shadow: 0 0 0 8px red;
+    }
+}

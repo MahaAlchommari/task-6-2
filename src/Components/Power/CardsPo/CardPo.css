@@ -1,0 +1,22 @@
+.ma-card {
+    text-align: center;
+}
+
+.ma-card img {
+    margin-bottom: 21px;
+}
+
+.ma-Power .ma-card {
+    position: absolute;
+    left: -1194%;
+    width: 2500%;
+}
+
+.ma-Power .ma-card::before {
+    content: '';
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 109px;
+}
+

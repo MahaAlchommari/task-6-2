@@ -1,0 +1,36 @@
+.mobiles {
+    background: url(./../../assets/img/img17.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.accordion div {
+    background-color: transparent;
+    color: white;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    border-bottom: 1px solid white;
+    box-shadow: none !important;
+    color: #FFF;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFF !important;
+}
+
+.accordion-button:focus {
+    border-color: #FFF !important;
+}
+
+
+.accordion-button::after {
+    content: "+";
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url("") !important;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+}

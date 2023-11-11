@@ -1,0 +1,14 @@
+.ma-nav {z-index: 1;}
+
+.icons-group .icons {
+    padding: 10px;
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    gap: 13px;
+}
